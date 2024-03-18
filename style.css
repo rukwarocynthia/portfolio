@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat:repeat;
+}
+    
+  .navbar {
+    background-color: #343a40;
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+
+  .header {
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-background_23-2149101392.jpg?w=1380&t=st=1710701957~exp=1710702557~hmac=8328d1dd8b74c0edae642da092c759cce02b74bd3aaaada0117d3afe9ad086d7);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .about {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    background-color: lightcyan;
+    color: black;
+    text-align: center;
+  } 
+  .experience {
+        padding: 50px 0;
+        background: #ffffff;
+        color: black;
+        text-align: center;
+    }
+    
+
+  .portfolio {
+    padding: 50px 0;
+    background-color: skyblue;
+    color: black;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0xNl8xLmpwZw.jpg);
+
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contact {
+    background-color: lightcyan;
+    padding: 50px 0;
+  }

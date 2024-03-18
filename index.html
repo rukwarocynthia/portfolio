@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-CeJ8fn/ovElzgLDbEp6ScWhewS3KXWXBwwFOQLcbIAa0KsoW5XeFntF0vnkgGk93" crossorigin="anonymous">
+  
+  <style>
+   
+    .navbar {
+      background-color: #343a40;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+    .navbar-brand:hover, .navbar-nav .nav-link:hover {
+      color: #ffffff;
+    }
+   
+    .header {
+      background-image: url(https://img.freepik.com/free-vector/gradient-abstract-background_23-2149101392.jpg?w=1380&t=st=1710701957~exp=1710702557~hmac=8328d1dd8b74c0edae642da092c759cce02b74bd3aaaada0117d3afe9ad086d7);
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      text-align: center;
+      font-size: x-large;
+    }
+    
+    .about {
+      padding: 50px 0;
+      background-color: lightcyan;
+      color: black;
+      text-align: center;
+    }
+      
+
+    .experience {
+        padding: 50px 0;
+        background: lightskyblue;
+        color: black;
+        text-align: left;
+    }
+
+   
+    .portfolio {
+      padding: 50px 0;
+      background-color: skyblue;
+      color: black;
+      background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0xNl8xLmpwZw.jpg);
+
+    }
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+    .portfolio-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    /
+    .contact {
+      background-color: lightcyan;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="font-weight-bold">Cynthia Wanjiru Rukwaro</h1>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="font-weight-bold" style="text-decoration: underline;">About Me</h2>
+          <p class="font-weight-bold" >I am an experienced software engineer with an excellent work ethic. 
+            I know what it means to be a hardworker in the face of the tech world.
+            I also easily adapt to changes since the world of technology is constantly evolving.
+            I am used to tiresome work so any load of work given will be done effiiently and on time.
+        </p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432484007_949116523477269_5629284607200980545_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ySx-6wL6ckgAX_l9_bs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTgVxxPipdLZkf5yIYqJJHTQYzb6dQuuQoL-UN65luxgQ&oe=661F370C" width="300" height="400" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!--Experience section-->
+   <section id="experiene" class="experience">
+    <div class="container">
+        <div class="column">
+            <div class="col-md-6">
+                <h2 class="font-weight-bold" style="text-decoration: underline;">Experience</h2>
+                <h3>Junior Developer</h3>
+                <p class="font-weight-bold" >I have done some internships in the microsoft tech company.
+                    I have also helped out in problem solving in various shops in town.
+                    As a junior developer,I have also improved user interfaces by updating menus so as to increase sales.
+                </p>
+            </div>
+        </div>
+    </div>
+   </section>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="font-weight-bold" style="text-decoration: underline;">Projects done</h2>
+      <div class="row">
+        <div class="col-md-4 portfolio-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV8rbk3K4Xy0l9G8ItkH-IB-dvG7puQX7Qaw&usqp=CAU" alt="Project 1">
+            <p class="font-weight-bold">First project l ever tried to work on was the microsoft project.
+                I was trying to understand on how it worked and how it was made. </p>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <img src="https://mlo-media.s3.amazonaws.com/articles/to-do-apps/best-to-do-apps-cover.png" alt="Project 2">
+            <p class="font-weight-bold">Second, I tried working on a task tracker taht would help in keeping a list of tasks neeeded to be done.
+                It woud help in so many ways.
+            </p>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEwKHb7sIiPKfYzLenlkweq3hVlD0HPAZkiJ3im0jy6t0vg8pMdmtINHa1yrb3Sqe1os&usqp=CAU" alt="Project 3">
+            <p class="font-weight-bold">I also tried to come up with a code that would help in password generation.
+                People found it hard to do that so l ccame up with a solution.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section id="contact" class="contact">
+    <div class="col-md-6">
+      <div class="container">
+        <h3 class="font-weight-bold" style="text-decoration: underline;">How to find me</h3>
+        <p><i class="fas fa-envelope"></i> Email: rukwarocynthia4093@gmail.com</p>
+        <p><i class="fas fa-phone"></i> Phone: +254793475759</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: Lakeview, Naivasha, Nakuru</p>
+      </div>
+    </div>
+  </section>
+
+  <!--footer section-->
+  <footer>
+    <p>&copy; 2024 Cynthia Rukwaro. All Rights Reserved.</p>
+    <p>Designed and Developed by Cynthia Rukwaro.</p>
+</footer>
+
+  
+
+  <!-- Bootstrap JS and jQuery (Optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
